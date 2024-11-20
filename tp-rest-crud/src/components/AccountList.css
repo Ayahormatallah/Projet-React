@@ -1,0 +1,86 @@
+/* Conteneur global */
+.account-container {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style du titre */
+.account-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #2a9d8f;
+}
+
+/* Tableau stylisé */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #264653;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #e1f5f2;
+}
+
+/* Boutons d'actions */
+.btn {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #21867a;
+}
+
+.delete-btn {
+    background-color: #e63946;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c73139;
+}
+
+/* Messages d'erreur */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
